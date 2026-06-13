@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jaxon Gardner — Software Engineer</title>
+  <meta name="description" content="Portfolio of Jaxon Gardner — Angular web apps and Flutter mobile experiences." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="brand" href="#top">
+      <span class="brand-mark">JG</span>
+      <span class="brand-name">Jaxon Gardner</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#angular">Angular</a>
+      <a href="#flutter">Flutter</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow"><span class="dot"></span> Available for opportunities</p>
+      <h1>
+        Software engineer building
+        <span class="grad-a">Angular</span> web apps
+        and <span class="grad-f">Flutter</span> mobile experiences.
+      </h1>
+      <p class="lede">
+        I&rsquo;m Jaxon — a developer focused on shipping polished, real-world products. From maintenance request systems to social mobile apps, I care about clean code, thoughtful UX, and getting things into people&rsquo;s hands.
+      </p>
+      <div class="cta-row">
+        <a class="btn primary" href="#angular">See my work</a>
+        <a class="btn ghost" href="#contact">Get in touch</a>
+      </div>
+      <div class="hero-meta">
+        <a href="https://github.com/jaxgardner" target="_blank" rel="noopener">github.com/jaxgardner</a>
+        <span>·</span>
+        <a href="mailto:pjaxongardner@gmail.com">pjaxongardner@gmail.com</a>
+      </div>
+    </section>
+
+    <section id="angular" class="section">
+      <div class="section-head">
+        <span class="section-tag tag-a">Angular</span>
+        <h2>Web applications</h2>
+        <p>TypeScript, Angular, SCSS — production web apps with clean architecture and modern UI.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <header class="card-head">
+            <h3>QuickFix</h3>
+            <span class="status live">Live</span>
+          </header>
+          <p class="card-desc">A simple, focused service for submitting and tracking maintenance requests. Built for property managers and tenants who need a frictionless way to get issues resolved.</p>
+          <ul class="stack">
+            <li>Angular</li>
+            <li>TypeScript</li>
+            <li>SCSS</li>
+          </ul>
+          <div class="card-links">
+            <a class="link" href="https://quick-fix-hazel.vercel.app" target="_blank" rel="noopener">
+              Visit live site <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="flutter" class="section">
+      <div class="section-head">
+        <span class="section-tag tag-f">Flutter</span>
+        <h2>Mobile applications</h2>
+        <p>Cross-platform iOS &amp; Android apps written in Dart. Social experiences, real-time features, and clean mobile UI.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <header class="card-head">
+            <h3>SideQuest</h3>
+          </header>
+          <p class="card-desc">A mobile app I&rsquo;m actively building and shipping. The companion support &amp; privacy site is public on GitHub.</p>
+          <ul class="stack">
+            <li>Flutter</li>
+            <li>Dart</li>
+            <li>iOS &amp; Android</li>
+          </ul>
+          <div class="card-links">
+            <a class="link" href="https://github.com/jaxgardner/sidequest-website" target="_blank" rel="noopener">
+              Support site <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="card">
+          <header class="card-head">
+            <h3>Groove</h3>
+          </header>
+          <p class="card-desc">A social media platform built specifically for local artists — designed to help musicians, painters, and creators connect with audiences in their community.</p>
+          <ul class="stack">
+            <li>Flutter</li>
+            <li>Dart</li>
+            <li>Go backend</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <header class="card-head">
+            <h3>Bored</h3>
+          </header>
+          <p class="card-desc">A social app for curing boredom — connect with friends and discover spontaneous things to do together when the day feels empty.</p>
+          <ul class="stack">
+            <li>Flutter</li>
+            <li>Dart</li>
+            <li>Social</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-head center">
+        <span class="section-tag tag-c">Contact</span>
+        <h2>Let&rsquo;s build something.</h2>
+        <p>Open to roles, freelance, and collaborations. The fastest way to reach me is email.</p>
+      </div>
+      <div class="contact-links">
+        <a class="contact-card" href="mailto:pjaxongardner@gmail.com">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">pjaxongardner@gmail.com</span>
+        </a>
+        <a class="contact-card" href="https://github.com/jaxgardner" target="_blank" rel="noopener">
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">github.com/jaxgardner</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>© <span id="year"></span> Jaxon Gardner</span>
+    <span class="dot-sep">·</span>
+    <span>Built with HTML, CSS, and care.</span>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
